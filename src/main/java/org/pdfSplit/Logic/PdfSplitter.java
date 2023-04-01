@@ -14,8 +14,8 @@ public class PdfSplitter {
 
             // Specify the folder path and file name
             String localDirectory = System.getProperty("user.dir");
-            String folderPath = "/PDFs";
-            String fileName = "/A17_FlightPlan.pdf";
+            String folderPath = "/PDFs/";
+            String fileName = "A17_FlightPlan.pdf";
             String inputFullPath = localDirectory + folderPath + fileName;
             // Load the PDF document
             PDDocument document = PDDocument.load(new File(inputFullPath));
